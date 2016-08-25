@@ -17,11 +17,11 @@ public class AbstractFactoryPattern {
 	    //get Bird factory
 	      AbstractFactory BirdFactory = Factory.getFactory("Bird");
 	      
-	    //get an object of Animal Dog
+	    //get an object of Bird Duck
 	      Bird b= BirdFactory.getBird("Duck");
 	      b.chirp();
 		
-	      //get an object of Animal Cat
+	      //get an object of Bird Piegon
 	     Bird b1= BirdFactory.getBird("Piegon");
 	      b1.chirp();
 	      
